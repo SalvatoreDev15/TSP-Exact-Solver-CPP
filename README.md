@@ -12,7 +12,7 @@ It guarantees the globally optimal path by evaluating all possible permutations 
 Navigate to the project root and compile the source code:
 ```bash
 g++ src/main.cpp -o tsp_solver
-
+```
 
 Usage
 You can run the program interactively or pass an input file:

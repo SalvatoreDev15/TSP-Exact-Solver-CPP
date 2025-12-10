@@ -15,7 +15,8 @@ g++ src/main.cpp -o tsp_solver
 ```
 
 
-Usage
+## Usage
+
 You can run the program interactively or pass an input file:
 ```bash
 ./tsp_solver
@@ -24,7 +25,7 @@ You can run the program interactively or pass an input file:
 ./tsp_solver < tests/linear_test.txt
 ```
 
-✅ Verification & Testing:
+## ✅ Verification & Testing:
 
 To ensure the reliability of the algorithm, the output has been validated using known geometrical patterns.
 
@@ -60,7 +61,7 @@ Total Minimum Distance: 20.00
 Status: PASSED
 
 
-🛠 Technologies
+## 🛠 Technologies
 
 Language: C++
 
@@ -68,6 +69,6 @@ Libraries: STL (vector, algorithm, cmath, iomanip)
 
 Method: Brute-force (Permutations)
 
-📄 License
+## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.

@@ -17,10 +17,11 @@ g++ src/main.cpp -o tsp_solver
 Usage
 You can run the program interactively or pass an input file:
 
-✅ Verification & Testing
+✅ Verification & Testing:
+
 To ensure the reliability of the algorithm, the output has been validated using known geometrical patterns.
 
-Test Case: Linear Check (Sanity Test)
+Test Case: Linear Check
 Scenario: Points are arranged on a straight line along the X-axis. The algorithm must visit them in order of distance (from closest to farthest) to minimize travel.
 
 Input Data: You can find this dataset in tests/linear_test.txt:

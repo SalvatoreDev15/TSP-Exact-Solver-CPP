@@ -3,7 +3,7 @@
 A C++ brute-force solver for the Traveling Salesperson Problem (TSP) in 3D space.  
 It guarantees the globally optimal path by evaluating all possible permutations (**Complexity: O(N!)**).
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - A C++ compiler (GCC/G++ recommended)
@@ -25,7 +25,7 @@ You can run the program interactively or pass an input file:
 ./tsp_solver < tests/linear_test.txt
 ```
 
-## ✅ Verification & Testing:
+## Verification & Testing:
 
 To ensure the reliability of the algorithm, the output has been validated using known geometrical patterns.
 
@@ -61,7 +61,7 @@ Total Minimum Distance: 20.00
 Status: PASSED
 
 
-## 🛠 Technologies
+## Technologies
 
 Language: C++
 
@@ -69,6 +69,6 @@ Libraries: STL (vector, algorithm, cmath, iomanip)
 
 Method: Brute-force (Permutations)
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.

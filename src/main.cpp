@@ -15,6 +15,8 @@
 #include <cmath>
 #include <limits>
 #include <iomanip> //For nice output formatting
+#include <chrono>
+
 
 using namespace std;
 
@@ -99,14 +101,17 @@ vector<Point3D> getPointsFromUser() {
         cin.clear(); //Clear error flag
         cin.ignore(numeric_limits<streamsize>::max(), '\n'); //Discard invalid input
         cerr << "Invalid input. Please enter an integer > 0: ";
+
     }
 
     cout << "Enter coordinates for " << numPoints << " points (x y z):" << endl;
     for (int i = 0; i < numPoints; ++i) {
         double x, y, z;
         cout << "Point " << (i + 1) << ": ";
-        //We could add validation here too, but let's keep it simple for now
         cin >> x >> y >> z;
+
+        //I need to add a check here for input type
+          
         points.emplace_back(x, y, z);
     }
     
@@ -127,7 +132,7 @@ void printResults(const TSPResult& result) {
 }
 
 int main(int argc, char const *argv[]){
-   
+
     cout << "=== 3D TSP Exact Solver ===" << endl;
     cout << "Complexity: O(n!). Recommended n <= 12.\n" << endl;
 
